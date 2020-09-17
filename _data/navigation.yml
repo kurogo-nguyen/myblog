@@ -1,6 +1,6 @@
 - name: Home
-  link: ./home
+  link: /home
 - name: Blog
-  link: ./blog
+  link: /blog
 - name: Contact
-  link: ./contact
+  link: /contact
