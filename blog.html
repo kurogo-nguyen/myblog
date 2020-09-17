@@ -6,9 +6,11 @@ title: Blog
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
+  <li class="card my-3">
+    <a class="card-header h3" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="card-body">
+      <p class="card-text">{{ post.excerpt }}</p>
+    </div>
+  </li>
   {% endfor %}
 </ul>
